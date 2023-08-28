@@ -1,0 +1,63 @@
+.tagline {
+  padding: 52px 160px 154px 160px;
+}
+._tagline {
+  background: linear-gradient(90deg, $Very-light-red 0%, $Light-red 100%);
+  border-radius: 0 0 0 120px ;
+  // background-image: url(../assets/images/bg-pattern-intro-desktop.svg);
+  // background-color: linear-gradient(90deg, $Light-red 0%, $Very-light-red 100%);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: right center;
+}
+.tagline-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Overpas-c;
+  color: $White;
+}
+.tagline__header {
+  font-size: 4rem;
+  margin-top: 140px;
+}
+.tagline__subheader {
+  font-size: 1.2rem; 
+  margin-top: 20px; 
+}
+.tagline__buttons {
+  margin-top: 48px; 
+}
+.hedline__button {
+  font-family: Ubuntu-c;
+  margin-left: 20px;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 40px;
+  border: none;
+  background-color: transparent;
+}
+._white {
+  color: $Ligh-red-CTA-text;
+  background-color: $White;
+  font-weight: 500;
+  transition: .4s;
+}
+._white:hover {
+  background-color: $Very-light-red-CTA-hover-background;
+  color: $White;
+  transition: .4s;
+  cursor: pointer;
+}
+._transparent {
+  font-weight: 500;
+  color: $White;
+  transition: .4s;
+  border: 1px solid $White;
+}
+._transparent:hover {
+  color: $Ligh-red-CTA-text;
+  transition: .4s;
+  background-color: $White;
+  cursor: pointer;
+}

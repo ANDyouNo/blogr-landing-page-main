@@ -1,0 +1,22 @@
+@import "variables";
+@import "typography";
+@import "header";
+@import "dropdown";
+@import "tagline";
+
+
+// ---------------------------------------------------
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// ---------------------------------------------------
+.page {
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  max-width: 1440px;
+  width: 100%;
+}

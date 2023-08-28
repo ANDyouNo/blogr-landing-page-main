@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  align-items: center;
+}
+header :last-child {
+  margin-left: auto;
+}
+.header__logo {
+  margin-right: 64px;
+}
+.header__login-button {
+  font-family: Ubuntu-c;
+  font-size: 1rem;
+  padding: 12px 32px;
+  border-radius: 40px;
+  border: none;
+  background-color: transparent;
+}
+._login {
+  font-weight: 400;
+  color: $White;
+  transition: .4s;
+}
+._login:hover {
+  color: $Ligh-red-CTA-text;
+  background-color: $White;
+  transition: .4s;
+  cursor: pointer;
+}
+._sign-up {
+  color: $Ligh-red-CTA-text;
+  background-color: $White;
+  font-weight: 500;
+  transition: .4s;
+}
+._sign-up:hover {
+  color: $White;
+  background-color: $Very-light-red-CTA-hover-background;
+  transition: .4s;
+  cursor: pointer;
+}
