@@ -3,7 +3,9 @@
 @import "header";
 @import "dropdown";
 @import "tagline";
-
+@import "burger-menu";
+@import "adaptive";
+@import "menu";
 
 // ---------------------------------------------------
 * {
@@ -19,4 +21,7 @@
 .wrap {
   max-width: 1440px;
   width: 100%;
+}
+.none {
+  display: none;
 }

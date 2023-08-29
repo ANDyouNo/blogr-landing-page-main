@@ -4,11 +4,6 @@
 ._tagline {
   background: linear-gradient(90deg, $Very-light-red 0%, $Light-red 100%);
   border-radius: 0 0 0 120px ;
-  // background-image: url(../assets/images/bg-pattern-intro-desktop.svg);
-  // background-color: linear-gradient(90deg, $Light-red 0%, $Very-light-red 100%);
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // background-position: right center;
 }
 .tagline-wrap {
   display: flex;
@@ -20,10 +15,12 @@
 .tagline__header {
   font-size: 4rem;
   margin-top: 140px;
+  text-align: center;
 }
 .tagline__subheader {
   font-size: 1.2rem; 
   margin-top: 20px; 
+  text-align: center;
 }
 .tagline__buttons {
   margin-top: 48px; 
@@ -60,4 +57,15 @@
   transition: .4s;
   background-color: $White;
   cursor: pointer;
+}
+.decoration-img {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/images/bg-pattern-intro-desktop.svg);
+  background-position: -520px center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 0 120px ;
 }

@@ -1,0 +1,109 @@
+// -----------------------------------menu----------------------------
+.menu {
+  font-family: Ubuntu-c;
+  position: absolute;
+  background-color: $White;
+  border-radius: 5px;
+  padding: 20px;
+  width: 90%;
+  top: 100px;
+  margin: 20px;
+  text-align: center;
+}
+.menu a {
+  color: #1d1e35;
+}
+
+.menu__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.arrow {
+  margin-left: 2%;
+  transition: transform 0.5s;
+}
+
+.menu__item-btn {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.submenu {
+  a {
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-self: center;
+  margin-bottom: 4px;
+  background-color: $Submenu-color;
+  color: $Very-dark-grayish-blue-body-copy;
+  border-radius: 5px;
+  animation: submenu 20s linear;
+}
+
+@keyframes submenu {
+  from {
+    opacity: 0;
+    top: -20px;
+  }
+  to {
+    opacity: 100;
+    top: 0;
+  }
+}
+.closed {
+  display: none;
+}
+
+.arrow-opened {
+  transform: rotate(180deg);
+  transition: transform 0.5s;
+}
+
+.opened {
+  font-weight: 700;
+}
+
+.devider {
+  background-color: #e7e7e9;
+  width: 100%;
+  height: 1px;
+  margin: 8px 0;
+  display: block;
+}
+
+.menu__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__button {
+  font-family: Ubuntu-c;
+  font-size: 1rem;
+  padding: 12px 32px;
+  border-radius: 40px;
+  border: none;
+  background-color: transparent;
+}
+._login-menu {
+  font-weight: 500;
+  color: $Very-dark-blue-headings;
+  transition: 0.4s;
+}
+._sign-up-menu {
+  color: $White;
+  background: $Button-gradient;
+  font-weight: 500;
+  transition: 0.4s;
+}
+

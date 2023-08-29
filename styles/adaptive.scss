@@ -1,0 +1,44 @@
+@media screen and (max-width: 1064px) {
+  .tagline {
+    padding: 52px 80px 154px 80px;
+  }
+}
+@media screen and (max-width: 906px) {
+  .tagline {
+    padding: 20px 20px 154px 20px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .header__login-buttons {
+    display: none;
+  }
+  .header__links {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .tagline {
+    padding: 40px 40px 154px 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .tagline {
+    padding: 48px 16px 136px 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  a#menu {
+    width: 40px;
+  }
+  a#menu span {
+    height: 2px;
+  }
+  a#menu span:nth-child(1) {
+    transform: translateY(-10px);
+  }
+  
+  a#menu span:nth-child(2) {
+    transform: translateY(10px);
+  }
+}
