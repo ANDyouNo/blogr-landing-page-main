@@ -46,7 +46,7 @@
   background-color: $Submenu-color;
   color: $Very-dark-grayish-blue-body-copy;
   border-radius: 5px;
-  animation: submenu 20s linear;
+  animation: submenu .5s linear;
 }
 
 @keyframes submenu {
