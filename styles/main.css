@@ -299,7 +299,7 @@ a#menu.active span:nth-child(4) {
   background-color: #EFEFF1;
   color: #4b5862;
   border-radius: 5px;
-  animation: submenu 20s linear; }
+  animation: submenu .5s linear; }
   .submenu a {
     text-decoration: none;
     margin: 10px 0; }
