@@ -1,14 +1,14 @@
 @media screen and (max-width: 1064px) {
   .tagline {
-    padding: 52px 80px 154px 80px;
+    padding: 52px 0px 154px 0px;
   }
 }
 @media screen and (max-width: 906px) {
   .tagline {
-    padding: 20px 20px 154px 20px;
+    padding: 20px 0px 154px 0px;
   }
 }
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 792px) {
   .header__login-buttons {
     display: none;
   }
@@ -19,12 +19,12 @@
     display: flex;
   }
   .tagline {
-    padding: 40px 40px 154px 40px;
+    padding: 40px 0px 154px 0px;
   }
 }
 @media screen and (max-width: 375px) {
   .tagline {
-    padding: 48px 16px 136px 16px;
+    padding: 48px 0px 136px 0px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -40,5 +40,76 @@
   
   a#menu span:nth-child(2) {
     transform: translateY(10px);
+  }
+}
+@media screen and (max-width: 1528px) {
+  ._intro {
+    background-position: 150% center; 
+  }
+}
+@media screen and (max-width: 1417px) {
+  ._intro {
+    background-size: 60%;
+    background-position: 142% center; 
+  }
+}
+@media screen and (max-width: 990px) {
+  ._intro {
+    background-size: 60%;
+    background-position: center 22%; 
+    background-image: url(../assets/images/illustration-editor-mobile.svg);
+  }
+  .intro__content-container {
+    margin-top: 430px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  .intro__text-container {
+    width: 100%;
+  }
+  .intro__header {
+    margin: 52px 0 40px 0;
+  }
+}
+@media screen and (max-width: 893px) {
+  ._intro {
+    background-size: 65%;
+  }
+}
+@media screen and (max-width: 715px) {
+  ._intro {
+    background-size: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  ._intro {
+    background-size: 75%;
+    background-position: center 18%; 
+  }
+  .intro__content-container {
+    margin-top: 330px;
+  }
+}
+@media screen and (max-width: 425px) {
+  ._intro {
+    background-size: 95%;
+    background-position: center 20%; 
+  }
+  .intro__content-container {
+    margin-top: 330px;
+  }
+  .intro__header {
+    margin: 90px 0 40px 0;
+  }
+  .intro__subheader {
+    text-align: center;
+    margin-top: 42px;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .intro__text {
+    margin-top: 24px;
+    text-align: center;
   }
 }

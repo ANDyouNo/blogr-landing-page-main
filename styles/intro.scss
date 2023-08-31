@@ -1,0 +1,38 @@
+.intro {
+  color: $Very-dark-blue-headings;
+}
+.intro__text-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.intro__content-container {
+  display: flex;
+  margin-bottom: 256px;
+}
+.intro__header {
+  margin: 152px 0 40px 0;
+  text-align: center;
+  font-family: Overpas-c;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.intro__subheader {
+  margin-top: 82px;
+  font-family: Overpas-c;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.intro__text {
+  margin-top: 26px;
+  font-family: Ubuntu-c;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2;
+}
+._intro {
+  background-image: url(../assets/images/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 126% center; 
+  background-size: auto;
+}

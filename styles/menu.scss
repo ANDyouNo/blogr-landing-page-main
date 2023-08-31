@@ -5,9 +5,8 @@
   background-color: $White;
   border-radius: 5px;
   padding: 20px;
-  width: 90%;
+  width: calc(100vw - 30px * 2);
   top: 100px;
-  margin: 20px;
   text-align: center;
 }
 .menu a {
