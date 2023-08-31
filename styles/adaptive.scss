@@ -1,3 +1,4 @@
+// --------------tagline--------------
 @media screen and (max-width: 1064px) {
   .tagline {
     padding: 52px 0px 154px 0px;
@@ -44,6 +45,7 @@
 }
 
 
+// --------------intro--------------
 @media screen and (max-width: 1528px) {
   ._intro {
     background-position: 150% center; 
@@ -58,7 +60,7 @@
 @media screen and (max-width: 990px) {
   ._intro {
     background-size: 60%;
-    background-position: center 22%; 
+    background-position: center 16%; 
     background-image: url(../assets/images/illustration-editor-mobile.svg);
   }
   .intro__content-container {
@@ -87,7 +89,7 @@
 @media screen and (max-width: 600px) {
   ._intro {
     background-size: 75%;
-    background-position: center 18%; 
+    background-position: center 14%; 
   }
   .intro__content-container {
     margin-top: 330px;
@@ -96,7 +98,7 @@
 @media screen and (max-width: 425px) {
   ._intro {
     background-size: 95%;
-    background-position: center 20%; 
+    background-position: center 16%; 
   }
   .intro__content-container {
     margin-top: 330px;
@@ -122,7 +124,7 @@
 }
 
 
-
+// --------------phones--------------
 @media screen and (max-width: 1440px) {
   .phones-pattern {
     background-position: -55% 80%;
@@ -179,10 +181,15 @@
     border-radius: 0 80px 0 80px;
   }
 }
+@media screen and (max-width: 600px) {
+  .phones__img {
+    top: 280%;
+  }
+}
 @media screen and (max-width: 590px) {
   .phones__img {
     width: 375px;
-    top: 320%;
+    top: 280%;
   }
   .phones__header {
     margin-top: 230px;
@@ -194,6 +201,26 @@
   .phones-pattern {
     background-position: center 230%;
     background-size: 150%;
+  }
+}
+@media screen and (max-width: 558px) {
+  .phones__img {
+    top: 285%;
+  }
+}
+@media screen and (max-width: 495px) {
+  .phones__img {
+    top: 290%;
+  }
+}
+@media screen and (max-width: 468px) {
+  .phones__img {
+    top: 310%;
+  }
+}
+@media screen and (max-width: 433px) {
+  .phones__img {
+    top: 325%;
   }
 }
 @media screen and (max-width: 375px) {
@@ -216,7 +243,7 @@
 }
 
 
-
+// --------------notebook--------------
 @media screen and (max-width: 1500px) {
   ._notebook {
     background-position: -55% center; 
@@ -272,5 +299,24 @@
   }
   .notebook__subheader {
     margin-top: 30px;
+  }
+}
+
+
+// --------------footer--------------
+@media screen and (max-width: 425px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__col:last-child {
+    margin: 0 0 0 0;
+  }
+  .footer__category {
+    margin-top: 52px;
+    text-align: center;
+  }
+  .footer__col {
+    text-align: center;
   }
 }

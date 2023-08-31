@@ -1,0 +1,34 @@
+._footer {
+  background-color: $Very-dark-black-blue-footer-background;
+  border-radius: 0 120px 0 0;
+}
+.footer {
+  font-family: Ubuntu-c;
+  color: $White-text;
+  display: flex;
+  align-items: flex-start;
+  padding: 70px 0 70px 0;
+  justify-content: space-between;
+}
+.footer__col {
+  display: flex;
+  flex-direction: column;
+}
+.footer__col:last-child {
+  margin: 0 15% 0 0;
+}
+.footer__category {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.footer__link {
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: $Grayish-blue-footer-text;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
