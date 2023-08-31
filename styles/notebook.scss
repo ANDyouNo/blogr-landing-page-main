@@ -1,0 +1,35 @@
+.notebook {
+  color: $Very-dark-blue-headings;
+}
+.notebook__text-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.notebook__content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 256px;
+}
+.notebook__subheader {
+  margin-top: 82px;
+  font-family: Overpas-c;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.notebook__subheader:first-child {
+  margin-top: 230px;
+}
+.notebook__text {
+  margin-top: 26px;
+  font-family: Ubuntu-c;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2;
+}
+._notebook {
+  background-image: url(../assets/images/illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -30% center; 
+  background-size: auto;
+}

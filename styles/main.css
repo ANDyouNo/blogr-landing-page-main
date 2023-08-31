@@ -371,7 +371,8 @@ a#menu.active span:nth-child(4) {
 .phones {
   display: flex;
   align-items: end;
-  height: 400px; }
+  height: 400px;
+  justify-content: space-between; }
 
 .phones__img {
   background-image: url(../assets/images/illustration-phones.svg);
@@ -400,6 +401,41 @@ a#menu.active span:nth-child(4) {
   font-size: 1rem;
   font-weight: 300;
   line-height: 2; }
+
+.notebook {
+  color: #1f3f5b; }
+
+.notebook__text-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+
+.notebook__content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 256px; }
+
+.notebook__subheader {
+  margin-top: 82px;
+  font-family: Overpas-c;
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.notebook__subheader:first-child {
+  margin-top: 230px; }
+
+.notebook__text {
+  margin-top: 26px;
+  font-family: Ubuntu-c;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2; }
+
+._notebook {
+  background-image: url(../assets/images/illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -30% center;
+  background-size: auto; }
 
 @media screen and (max-width: 1064px) {
   .tagline {
@@ -538,7 +574,7 @@ a#menu.active span:nth-child(4) {
 
   .phones-pattern {
     border-radius: 0 80px 0 80px; } }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 590px) {
   .phones__img {
     width: 375px;
     top: 320%; }
@@ -569,6 +605,49 @@ a#menu.active span:nth-child(4) {
   .phones-pattern {
     background-position: center 230%;
     background-size: 150%; } }
+@media screen and (max-width: 1500px) {
+  ._notebook {
+    background-position: -55% center; } }
+@media screen and (max-width: 1382px) {
+  ._notebook {
+    background-position: -70% center; } }
+@media screen and (max-width: 1316px) {
+  ._notebook {
+    background-position: -25% center;
+    background-size: 60%; } }
+@media screen and (max-width: 1316px) {
+  ._notebook {
+    background-position: 45% 10%;
+    background-size: 60%; }
+
+  .notebook__subheader:first-child {
+    margin-top: 550px; }
+
+  .notebook__text-container {
+    width: 100%; }
+
+  .notebook__content-container {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 766px) {
+  .notebook__subheader:first-child {
+    margin-top: 450px; } }
+@media screen and (max-width: 662px) {
+  .notebook__subheader, .notebook__text {
+    text-align: center; }
+
+  .notebook__subheader:first-child {
+    margin-top: 350px; } }
+@media screen and (max-width: 425px) {
+  ._notebook {
+    background-image: url(../assets/images/illustration-laptop-mobile.svg);
+    background-position: center 10%;
+    background-size: auto; }
+
+  .notebook__subheader:first-child {
+    margin-top: 450px; }
+
+  .notebook__subheader {
+    margin-top: 30px; } }
 * {
   margin: 0;
   padding: 0;
