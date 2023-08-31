@@ -435,7 +435,7 @@ a#menu.active span:nth-child(4) {
 ._notebook {
   background-image: url(../assets/images/illustration-laptop-desktop.svg);
   background-repeat: no-repeat;
-  background-position: -30% center;
+  background-position: -24% center;
   background-size: auto; }
 
 ._footer {
@@ -738,7 +738,7 @@ a#menu.active span:nth-child(4) {
   justify-content: center; }
 
 .wrap {
-  max-width: 1500px;
+  max-width: 1174px;
   width: 100%;
   padding: 0 30px; }
 
