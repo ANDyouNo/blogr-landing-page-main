@@ -1,0 +1,48 @@
+.phones-pattern {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/images/bg-pattern-circles.svg);
+  background-position: -25% 80%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 120px 0 120px;
+}
+._phones {
+  background: linear-gradient(90deg, #2E2F41 0%, #3D4063 100%);
+  border-radius: 0 120px 0 120px;
+  color: $White-text;
+}
+.phones {
+  display: flex;
+  align-items: end;
+  height: 400px;
+}
+.phones__img {
+  background-image: url(../assets/images/illustration-phones.svg);
+  background-position: center center;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 552px;
+  height: 579px;
+  top: 110px;
+}
+.phones__container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.phones__header {
+  margin-top: 118px;
+  font-family: Overpas-c;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.phones__text {
+  margin: 32px 0 110px 0;
+  font-family: Ubuntu-c;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2;
+}
