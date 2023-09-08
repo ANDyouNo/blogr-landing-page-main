@@ -17,7 +17,7 @@
 :root {
   font-size: 16px;
   line-height: 1;
-  letter-spacing: 1; }
+  letter-spacing: 0; }
 
 header {
   display: flex;
