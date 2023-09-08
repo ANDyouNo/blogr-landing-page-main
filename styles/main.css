@@ -730,17 +730,8 @@ a#menu.active span:nth-child(4) {
   .footer__col {
     text-align: center; } }
 @media screen and (max-width: 425px) {
-  * {
-    letter-spacing: -2px; }
-
-  .intro__text {
-    letter-spacing: normal; }
-
-  .phones__text {
-    letter-spacing: normal; }
-
-  .notebook__text {
-    letter-spacing: normal; } }
+  .tagline__header, .intro__header, .intro__subheader, .phones__header, .notebook__subheader {
+    letter-spacing: -2px; } }
 * {
   margin: 0;
   padding: 0;
