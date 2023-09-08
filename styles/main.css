@@ -16,8 +16,7 @@
   font-weight: 400; }
 :root {
   font-size: 16px;
-  line-height: 1;
-  letter-spacing: -1px; }
+  line-height: 1; }
 
 header {
   display: flex;
@@ -730,6 +729,18 @@ a#menu.active span:nth-child(4) {
 
   .footer__col {
     text-align: center; } }
+@media screen and (max-width: 425px) {
+  * {
+    letter-spacing: -1px; }
+
+  .intro__text {
+    letter-spacing: normal; }
+
+  .phones__text {
+    letter-spacing: normal; }
+
+  .notebook__text {
+    letter-spacing: normal; } }
 * {
   margin: 0;
   padding: 0;

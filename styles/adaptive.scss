@@ -356,3 +356,20 @@
     text-align: center;
   }
 }
+
+
+
+@media screen and (max-width: 425px) {
+  *{
+    letter-spacing: -1px;
+  }
+  .intro__text {
+    letter-spacing: normal;
+  }
+  .phones__text {
+    letter-spacing: normal;
+  }
+  .notebook__text {
+    letter-spacing: normal;
+  }
+}
